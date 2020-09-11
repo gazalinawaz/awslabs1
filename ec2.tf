@@ -10,8 +10,4 @@ resource "aws_instance" "myec2" {
   vpc_security_group_ids = ["sg-0f2f7164", "sg-0bd92f0cf4e31e9c9"]
   key_name = "1"
   subnet_id = "subnet-014044f13548abb3c"
- 
-  tags {
-    Name = "manual"
-  }
 }
